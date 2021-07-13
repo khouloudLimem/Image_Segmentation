@@ -31,7 +31,7 @@ transforms = transforms.Compose(
     ]
 )
 
-dataset = datasets.ImageFolder(root='C:\\Users\\dhiae\\Image_Segmentation\\DCGAN\\data', transform=transforms)
+dataset = datasets.ImageFolder(root='/home/q507606/IdeaProjects/Image_Segmentation/data', transform=transforms)
 
 dataloader = DataLoader(dataset, batch_size=BATCH_SIZE, shuffle=True)
 
