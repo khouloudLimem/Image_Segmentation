@@ -1,6 +1,6 @@
 LEARNING_RATE = 2e-4  # could also use two lrs, one for gen and one for disc
 BATCH_SIZE = 64
-IMAGE_SIZE = 64
+IMAGE_SIZE = 256
 CHANNELS_IMG = 1
 NOISE_DIM = 100
 NUM_EPOCHS = 10000
